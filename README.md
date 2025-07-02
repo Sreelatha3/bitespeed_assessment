@@ -1,4 +1,7 @@
 
+
+# Test cases
+
 1. No matching record for the contact details in the db.
 
 curl -X POST http://localhost:3000/identify \
@@ -29,4 +32,9 @@ curl -X POST http://localhost:3000/identify -H "Content-Type: application/json" 
 Merge it with the oldest record
 
 curl -X POST http://localhost:3000/identify -H "Content-Type: application/json" -d "{\"email\":\"bob@example.com\",\"phoneNumber\":\"3874837433\"}"
+
+
+
+
+# Table in the postgres: https://supabase.com/dashboard/project/hhkyqdjfoeheggpprmby/editor/17274
 
