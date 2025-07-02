@@ -36,5 +36,7 @@ curl -X POST http://localhost:3000/identify -H "Content-Type: application/json" 
 
 
 
-# Table in the postgres: https://supabase.com/dashboard/project/hhkyqdjfoeheggpprmby/editor/17274
+# Table in the postgres: 
+
+https://supabase.com/dashboard/project/hhkyqdjfoeheggpprmby/editor/17274
 
